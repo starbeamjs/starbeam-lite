@@ -1,0 +1,48 @@
+{
+  "name": "@starbeam-litex/vanilla",
+  "type": "module",
+  "version": "0.0.1",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "publishConfig": {
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite --clearScreen false",
+    "docs": "typedoc",
+    "lint": "eslint \"src/**/*.ts\"",
+    "prepack": "pnpm build",
+    "preview": "vite preview",
+    "publish:local": "pnpm pack && cp *.tgz $LOCAL_TARGET",
+    "test": "vitest --run"
+  },
+  "dependencies": {
+    "@starbeam-lite/core": "workspace:^"
+  },
+  "devDependencies": {
+    "@starbeam-dev/eslint-plugin": "^1.1.1",
+    "@workspace/build-utils": "workspace:^",
+    "@workspace/test-utils": "workspace:^",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  },
+  "peerDependencies": {
+    "@starbeam-lite/shared": "workspace:^"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "peerDependenciesMeta": {
+    "@starbeam-lite/shared": {
+      "optional": true
+    }
+  }
+}

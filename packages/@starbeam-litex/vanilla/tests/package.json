@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "@workspace/xvanilla-tests",
+  "dependencies": {
+    "@starbeam-lite/core": "workspace:^",
+    "@starbeam-lite/shared": "workspace:^"
+  }
+}

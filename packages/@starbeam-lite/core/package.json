@@ -33,16 +33,15 @@
   },
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
-    "@starbeam-dev/eslint-plugin": "^1.0.4",
-    "@swc/core": "^1.4.12",
+    "@starbeam-dev/eslint-plugin": "^1.1.1",
+    "@swc/core": "^1.6.13",
     "@workspace/build-utils": "workspace:^",
     "@workspace/test-utils": "workspace:^",
-    "rollup-plugin-swc-minify": "^1.1.0",
-    "terser": "^5.30.3",
-    "typescript": "^5.4.4",
-    "unplugin-swc": "^1.4.4",
-    "vite": "^5.2.8",
-    "vitest": "^1.4.0"
+    "rollup-plugin-swc-minify": "^1.1.1",
+    "terser": "^5.31.2",
+    "typescript": "^5.5.3",
+    "unplugin-swc": "^1.5.1",
+    "vite": "^5.3.3"
   },
   "peerDependencies": {
     "@starbeam-lite/shared": "workspace:~"

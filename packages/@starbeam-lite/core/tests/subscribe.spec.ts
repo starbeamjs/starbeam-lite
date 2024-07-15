@@ -1,8 +1,8 @@
 import { CachedFormula, Cell, Formula } from "@starbeam-lite/core";
+import { subscribe } from "@starbeam-lite/core/subtle";
+import { TAG } from "@starbeam-lite/shared";
 import { EventRecorder, TestScheduler } from "@workspace/test-utils";
 import { describe, expect, it } from "vitest";
-import { subscribe } from "../src/subtle";
-import { TAG } from "@starbeam-lite/shared";
 
 describe("subscribe", () => {
   describe("equivalent to Signal.subtle.Watcher (ported tests)", () => {

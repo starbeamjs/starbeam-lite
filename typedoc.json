@@ -1,6 +1,8 @@
 {
   "$schema": "https://typedoc.org/schema.json",
-  "entryPoints": ["packages/@starbeam-lite/*"],
+  "entryPoints": [
+    "packages/*/*"
+  ],
   "entryPointStrategy": "packages",
   "out": "../../../doc/@starbeam-lite/core",
   "skipErrorChecking": true

@@ -35,5 +35,9 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:starbeamjs/starbeam-lite.git"
+  },
+  "volta": {
+    "node": "20.12.1",
+    "pnpm": "8.15.6"
   }
 }

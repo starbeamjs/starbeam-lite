@@ -3,7 +3,7 @@ import { TAG } from "@starbeam-lite/shared";
 import type { MutableTag } from "./cell.js";
 import { initialized, start, updated } from "./runtime.js";
 import type { Subscription } from "./subscriptions.js";
-import type { Tag, Tagged, TagSnapshot } from "./tag.js";
+import type { Tagged, TagSnapshot } from "./tag.js";
 
 /**
  * A formula tag represents the validation state of a formula.
